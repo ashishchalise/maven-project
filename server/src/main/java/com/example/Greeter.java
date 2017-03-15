@@ -16,4 +16,8 @@ public class Greeter {
   public String greet(String someone) {
     return String.format("Hello world, %s!", someone);
   }
+  
+  public String greet2(String someone) {
+	    return String.format("Hello USA , %s!", someone);
+	  }
 }

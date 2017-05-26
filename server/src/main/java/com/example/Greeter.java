@@ -24,4 +24,9 @@ public class Greeter {
   public String greet3(String someone) {
 	    return String.format("Hello India , %s!", someone);
 	  }
+  
+  public String greet4(String someone) {
+	    return String.format("Hello UK , %s!", someone);
+	  }
+
 }

@@ -14,7 +14,7 @@ public class Greeter {
 
   //TODO: Add javadoc comment
   public String greet(String someone) {
-    return String.format("Hello world again, %s!", someone);
+    return String.format("Hello world something else, %s!", someone);
   }
   
   public String greet2(String someone) {
@@ -25,8 +25,8 @@ public class Greeter {
 	    return String.format("Hello India , %s!", someone);
 	  }
   
-  public String greet4(String someone) {
-	    return String.format("Hello UK , %s!", someone);
+  public String greet3(String someone) {
+	    return String.format("Hello India , %s!", someone);
 	  }
 
 }
